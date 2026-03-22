@@ -5,17 +5,15 @@ public class Reporte {
     // Metodo que genera un reporte comparativo de todos los vehiculos
     public static void generarComparativo(Vehiculos[] lista) {
 
-        // Variables para encontrar el vehiculo mas economico
-        double mejorCosto = Double.MAX_VALUE;
-        String mejorVehiculo = "Ninguno";
+        // Inicializar con el primer vehículo
+        double mejorCosto = lista[0].calcularViaje();
+        String mejorVehiculo = lista[0].getTipovehiculo();
 
-        // Variables para encontrar el vehiculo mas ecologico
-        double menorHuella = Double.MAX_VALUE;
-        String vehiculoEcologico = "Ninguno";
+        double menorHuella = lista[0].calcularHuellaEcologica();
+        String vehiculoEcologico = lista[0].getTipovehiculo();
 
-        // Variables para encontrar el vehiculo mas rapido
-        double menorTiempo = Double.MAX_VALUE;
-        String vehiculoRapido = "Ninguno";
+        double menorTiempo = lista[0].calcularTiempo();
+        String vehiculoRapido = lista[0].getTipovehiculo();
 
         System.out.println("\n===== REPORTE COMPARATIVO =====");
 
@@ -73,31 +71,16 @@ public class Reporte {
 
         // ================= RESULTADOS FINALES =================
 
-        // Mostrar vehiculo mas economico
         System.out.println("\nMAS ECONOMICO:");
-        if (!mejorVehiculo.equals("Ninguno")) {
-            System.out.println("Vehiculo mas economico: " + mejorVehiculo);
-            System.out.println("Costo: $" + mejorCosto);
-        } else {
-            System.out.println("No hay vehiculos validos");
-        }
+        System.out.println("Vehiculo mas economico: " + mejorVehiculo);
+        System.out.println("Costo: $" + mejorCosto);
 
-        // Mostrar vehiculo mas ecologico
         System.out.println("\nMAS ECOLOGICO:");
-        if (!vehiculoEcologico.equals("Ninguno")) {
-            System.out.println("Vehiculo: " + vehiculoEcologico);
-            System.out.println("Huella: " + menorHuella + " kg CO2");
-        } else {
-            System.out.println("No hay vehiculos validos");
-        }
+        System.out.println("Vehiculo: " + vehiculoEcologico);
+        System.out.println("Huella: " + menorHuella + " kg CO2");
 
-        // Mostrar vehiculo mas rapido
         System.out.println("\nMAS RAPIDO:");
-        if (!vehiculoRapido.equals("Ninguno")) {
-            System.out.println("Vehiculo: " + vehiculoRapido);
-            System.out.println("Tiempo: " + menorTiempo + " horas");
-        } else {
-            System.out.println("No hay vehiculos validos");
-        }
+        System.out.println("Vehiculo: " + vehiculoRapido);
+        System.out.println("Tiempo: " + menorTiempo + " Horas");
     }
 }
