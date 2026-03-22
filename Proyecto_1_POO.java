@@ -25,15 +25,41 @@ public class Proyecto_1_POO{
         sc.nextLine(); // Limpia el buffer para evitar errores con nextLine()
 
         // 🔹 Información de tipos de motor permitidos
-        System.out.println("Tipos de motor establecidos para cada vehiculo: ");
-        System.out.println("Auto: Electrico, hibrido, gasolina, diesel, gas");
-        System.out.println("Moto: Electrico, hibrido y gasolina");
-        System.out.println("Camion: Electrico, hibrido, gasolina, diesel, gas");
-        System.out.println("Dron: Electrico y gasolina");
+        System.out.println("===Tipos de motor establecidos para cada vehiculo: ===");
+        System.out.println("Auto: 1.Electrico, 2.hibrido, 3.gasolina, 4.diesel, 5.gas");
+        System.out.println("Moto: 1.Electrico, 2.hibrido y 3.gasolina");
+        System.out.println("Camion: 1.Electrico, 2.hibrido, 3.gasolina, 4.diesel, 5.gas");
+        System.out.println("Dron: 1.Electrico y 3.gasolina");
 
         // 🔹 Solicita el tipo de motor
-        System.out.println("Ingrese el tipo de motor: ");
-        String motor = sc.nextLine().toLowerCase(); // Se convierte a minúsculas para evitar errores
+        int opcionMotor;
+        String motor;
+
+        do {
+            System.out.println("Seleccione el tipo de motor:");
+            System.out.println("1. Electrico");
+            System.out.println("2. Hibrido");
+            System.out.println("3. Gasolina");
+            System.out.println("4. Diesel");
+            System.out.println("5. Gas");
+            System.out.print("Ingrese un tipo de motor: ");
+                
+            opcionMotor = sc.nextInt();
+            sc.nextLine();
+
+            switch (opcionMotor) {
+                case 1 -> motor = "electrico";
+                case 2 -> motor = "hibrido";
+                case 3 -> motor = "gasolina";
+                case 4 -> motor = "diesel";
+                case 5 -> motor = "gas";
+                default -> {
+                    motor = "";
+                    System.out.println("Opcion invalida, intente nuevamente.\n");
+                }
+            }
+        // 🔹 Valida que la opción esté dentro del rango permitido (1–5); de lo contrario, repite el ciclo, || es un or logico        
+        } while (opcionMotor < 1 || opcionMotor > 5);
 
         // 🔹 Solicita la carga del vehículo
         System.out.print("Ingrese cuanta carga (kg): ");
