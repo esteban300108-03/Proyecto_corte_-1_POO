@@ -1,4 +1,6 @@
-# 🚚 Simulador de Envíos con Vehículos (POO)
+# 🚚 Simulador de Envíos con Vehículos (Java)
+
+Link Informe del proyecto pdf ------->
 
 ## 📖 Descripción del proyecto
 
