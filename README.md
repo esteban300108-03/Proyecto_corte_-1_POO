@@ -21,7 +21,7 @@ Desarrollar un sistema orientado a objetos que implemente herencia y clases abst
 * Implementar una clase abstracta base con atributos y métodos comunes.
 * Definir métodos abstractos que sean implementados por las subclases.
 * Crear diferentes tipos de vehículos con comportamientos específicos.
-* Calcular el costo y tiempo de envío de mercancías.
+* Calcular el costo y tiempo de envío de los paquetes.
 
 ---
 
