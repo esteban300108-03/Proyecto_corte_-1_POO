@@ -2,9 +2,7 @@
 
 Link Informe del proyecto pdf ------->
 
-Link Diagrama de casos de uso ------->
-
-Link Diagrama de clases -------------> https://app.moqups.com/gsWkOG2xa04CasmlKfi1G30u1eSZiY9f/view/page/a8bfb0d3e
+Link Diagrama de clases y Diagrama de casos de uso -------------> https://app.moqups.com/gsWkOG2xa04CasmlKfi1G30u1eSZiY9f/view/page/a4b64e325
 
 ## 📖 Descripción del proyecto
 
