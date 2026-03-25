@@ -4,6 +4,7 @@ Link Informe del proyecto pdf ------->
 
 Link Diagrama de clases y Diagrama de casos de uso -------------> https://app.moqups.com/gsWkOG2xa04CasmlKfi1G30u1eSZiY9f/view/page/a4b64e325
 
+
 ## 📖 Descripción del proyecto
 
 Este proyecto consiste en el desarrollo de un sistema que simula el costo y el tiempo de envío de paquetes utilizando diferentes tipos de vehículos.
