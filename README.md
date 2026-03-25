@@ -1,8 +1,9 @@
 # 🚚 Simulador de Envíos con Vehículos (Java)
 
-Link Informe del proyecto pdf -------> https://drive.google.com/file/d/1C93cArXrhCTfRiZnQEG-b-o4tUoFs_Zs/view?usp=sharing
+Link Informe del proyecto pdf ---> https://drive.google.com/file/d/1C93cArXrhCTfRiZnQEG-b-o4tUoFs_Zs/view?usp=sharing
 
-Link Diagramas de clases y casos de uso -------> https://app.moqups.com/gsWkOG2xa04CasmlKfi1G30u1eSZiY9f/view/page/a4b64e325
+
+Link Diagramas de clases y casos de uso ----> https://app.moqups.com/gsWkOG2xa04CasmlKfi1G30u1eSZiY9f/view/page/a4b64e325
 
 
 ## 📖 Descripción del proyecto
